@@ -1,0 +1,19 @@
+.card{
+    margin: 15px 15px;
+    &:hover{
+        transform: scale(1.2);
+    }
+    .card-body{
+        img{
+            margin-top: 10px
+        }
+        .tarjetaTitulo{
+            color: $colorDos;
+            font-size: 15px;
+        }
+        .tarjetaEditorial{
+        color: $colorTres;
+        font-size: 12px;
+        }
+    }  
+}

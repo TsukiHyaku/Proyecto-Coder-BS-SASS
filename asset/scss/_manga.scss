@@ -1,0 +1,59 @@
+.mangaImg{
+    margin: 20px  0px;
+}
+
+.Titulo{
+    color: ( $colorDos);
+    font-size: 30px;
+}
+
+.Editorial {
+    font-size: 27px;
+    color: $colorTres;
+}
+
+.Stock {
+    font-size: 27px;
+    color: $colorCuatro;
+}
+
+.Precio {
+    font-size: 27px;
+    color: $colorCinto;
+}
+
+.tituloDescripcion {
+    font-size: 25px;
+    color: $colorCinto;
+}
+
+.Descripcion {
+    color: $colorSeis;
+    margin-bottom: 20px;
+}
+
+.tituloDetallesProducto {
+    font-size: 25px;
+    color: $colorCinto;
+    margin: 5px 0px;
+    margin-left: 5px;
+}
+
+.detallesProducto {
+    color: $colorSeis;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.productosRelacionados{
+    font-size: 25px;
+    color: $colorCinto;
+    margin: 5px 0px;
+    margin-left: 5px;
+}
+
+.card{
+    &:hover{
+        transform: scale(0.9);
+    }
+}
