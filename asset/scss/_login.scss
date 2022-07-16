@@ -1,4 +1,4 @@
-h1{
+.Bienvenida{
     font-size: 50px;
     margin: 20px;
 }
@@ -6,7 +6,7 @@ h1{
 .form {
     height: 40px;
     color: white;
-    background-color: $colorUno;
+    background-color: map-get($map: palette, $key: principal);
     border: black solid 1px;
     border-radius: 6px;
     
@@ -25,7 +25,7 @@ h1{
 .btnIngresar{
     height: 40px;
     color: white;
-    background-color: $colorUno;
+    background-color: map-get($map: palette, $key: principal);
     border: black solid 1px;
     border-radius: 15px;
 }

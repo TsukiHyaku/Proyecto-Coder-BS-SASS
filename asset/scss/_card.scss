@@ -3,17 +3,27 @@
     &:hover{
         transform: scale(1.2);
     }
-    .card-body{
+
+
+    @mixin  cards ($fond) {
+        max-height: 150px;
         img{
             margin-top: 10px
         }
         .tarjetaTitulo{
-            color: $colorDos;
-            font-size: 15px;
+            color: map-get($map: palette, $key: titulos);
+            font-size: fond;
         }
         .tarjetaEditorial{
-        color: $colorTres;
+        color: map-get($map: palette, $key: editorial);
         font-size: 12px;
         }
     }  
+    }
+    .card-body{
+        @include cards (15px);
+}
+
+.card-body-grande {
+    @include card (10px);
 }

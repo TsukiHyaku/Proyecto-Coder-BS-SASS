@@ -21,6 +21,9 @@
 .card:hover {
   transform: scale(1.2);
 }
+.card .card-body {
+  max-height: 150px;
+}
 .card .card-body img {
   margin-top: 10px;
 }

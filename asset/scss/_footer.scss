@@ -1,5 +1,5 @@
 .footer{
-    background-color: $colorSiete;
+    background-color: map-get($map: palette, $key: footers);
     
     p{
         color: white;
