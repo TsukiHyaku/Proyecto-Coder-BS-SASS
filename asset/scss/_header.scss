@@ -1,5 +1,5 @@
 .envios{
-    background-color: map-get($map: palette, $key: editorial);
+    background-color: map-get(palette, editorial);
     color: white;
     img{
         width: 45px;

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+
+a{
+  text-decoration: none;
+}
 .envios {
   background-color: rgb(33, 166, 131);
   color: white;
@@ -156,11 +160,15 @@ h1 {
   color: white;
   font-size: 15px;
 }
-.footer img {
+.redesImg {
   width: 20px;
 }
 .footer .redes {
   margin-left: 50px;
+}
+
+.imgLogo{
+  width: 70px;
 }
 
 body {

@@ -1,16 +1,8 @@
 .footer{
-    background-color: map-get($map: palette, $key: footers);
-    
-    p{
-        color: white;
-        font-size: 15px;
+    .imgLogo{
+        width: 30px;
     }
-
-    img{
+    .redesImg{
         width: 20px;
-    }
-    
-    .redes {
-        margin-left: 50px;
     }
 }
